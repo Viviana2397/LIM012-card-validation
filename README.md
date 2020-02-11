@@ -1,7 +1,7 @@
 # Validación de Tarjeta de crédito para suscripción de PrimeVideo
-## Definición del producto:
-Los principales usuarios de esta WebApp son las personas que deseen suscribirse al servicio de streaming para obtener el servicio de prueba gratuito por 30 días.
-Al validar la tarjeta puede acceder al servicio, si la garjeta no es validada no pueden acceder al servicio,aquí solo sire para validar una tarjeta mas no para facturar el servicio :happy: 
+## Descripción:
+Los principales usuarios de esta WebApp son las personas que deseen suscribirse al servicio de streaming para obtener la prueba gratuita por 30 días como parte final del proceso.
+Al validar la tarjeta se visualizará un mensaje de aprobación,si la tarjeta es rechazada(inválida) se verá un mensaje de desaprobación ,en este caso solo sire para validar una tarjeta mas no para facturar el servicio :happy: ; este proyecto esta basado en el algoritmo de Luhn.
 
 # Prototipo en papel
 ![boceto](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/20200211_183531.jpg)
