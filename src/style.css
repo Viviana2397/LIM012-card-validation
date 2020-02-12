@@ -1,6 +1,6 @@
 header {
-    background-image:https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/logo%20prime%20video.jpg
-    }
+     background-image: url("https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/logo%20prime%20video.jpg");
+}
 
 body {
         background-color: white;
