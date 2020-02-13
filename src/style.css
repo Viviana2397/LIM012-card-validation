@@ -1,33 +1,30 @@
-body {
-        background-color: white;
-        background-image: url("https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/logo%20prime%20video.jpg");
-     }
-    
+.Logo {
+    position: absolute;
+    width: 500px;
+    height: 190.83px;
+    background-image: url(https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/logo%20prime%20video.jpg); 
+}
 .Message {
-         position: relative;
-         width: 625px;
-         height: 593px;
+         position: absolute;
+         width: 500px;
+         height: 450px;
          left: calc(50% - 625px/2 + 0.5px);
          top: calc(50% - 593px/2 + 0.5px);
-         background: #FAFAFA;
          border: 1px solid #000000;
           }
 
 .Texto {
-    position: relative;
-    width: 558px;
-    height: 467px;
-    left: center;
-    top: center ;
+    position: absolute;
+    width: 400px;
+    height: 190px;
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
-    font-size: 64px;
+    font-size: 50px;
     line-height: 72px;
+    text-align: justify;
     /* or 112% */
-    display: flex;
-    align-items: center;
-    text-align: center;
+    align-items: justify;
     text-indent: 2px;
     color: #3A3737;
     mix-blend-mode: normal;
