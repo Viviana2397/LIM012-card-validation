@@ -1,9 +1,13 @@
-.Logo {
-    position: absolute;
-    width: 500px;
-    height: 190.83px;
-    background-image: url(https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/logo%20prime%20video.jpg); 
-}
+#img  {
+
+    width: 200px;
+    height: 50px;
+    display: grid;
+    align-self: center;
+
+        }
+   
+    
 .Message {
          position: absolute;
          width: 500px;
@@ -28,4 +32,20 @@
     text-indent: 2px;
     color: #3A3737;
     mix-blend-mode: normal;
+    }
+    .end{
+        position: absolute;
+    }
+
+    .Validator{
+        position: absolute;
+        size: 60pt;
+        border-bottom: black;
+        font-size: 15px;
+        background-color: coral;
+        border: rgb(10, 10, 10) 1px;
+        padding: 5pt;
+        padding-right: 7pt;
+        padding-left: 7pt;
+        border-radius: 15pt;
     }
