@@ -1,15 +1,14 @@
 #img  {
-
-    width: 200px;
-    height: 50px;
-    display: grid;
-    align-self: center;
+    padding-top: 100px;
+    width: 550px;
+    height: 350px;
+    position: relative;
 
         }
    
     
 .Message {
-         position: absolute;
+         position: relative ;
          width: 500px;
          height: 450px;
          left: calc(50% - 625px/2 + 0.5px);
@@ -33,17 +32,12 @@
     color: #3A3737;
     mix-blend-mode: normal;
     }
-    .end{
-        position: absolute;
-    }
-
+    
+    
     .Validator{
-        position: absolute;
         size: 60pt;
         border-bottom: black;
         font-size: 15px;
-        background-color: coral;
-        border: rgb(10, 10, 10) 1px;
         padding: 5pt;
         padding-right: 7pt;
         padding-left: 7pt;
