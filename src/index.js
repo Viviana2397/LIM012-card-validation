@@ -13,7 +13,7 @@ validate.onclick=function validate(){
             isValid(cardNumber);
         }
         else {
-            alert('Ingresa un número de tajeta válido');
+            alert("Ingresa un número de tajeta válido")
             document.getElementById('form1').reset();
         }
     }

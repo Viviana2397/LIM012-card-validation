@@ -1,19 +1,23 @@
 #img  {
-    padding-top: 100px;
+    padding-top: 80px;
     width: 550px;
-    height: 350px;
-    position: relative;
+    height: 150px;
+    position:relative;
 
         }
    
-    
+.message.P{
+        text-align: center;
+        position:center;
+    }
 .Message {
          position: relative ;
          width: 500px;
          height: 450px;
          left: calc(50% - 625px/2 + 0.5px);
          top: calc(50% - 593px/2 + 0.5px);
-         border: 1px solid #000000;
+         border: 1px solid #b3b1b1;
+         border-radius: 2.5px;
           }
 
 .Texto {
@@ -32,9 +36,9 @@
     color: #3A3737;
     mix-blend-mode: normal;
     }
-    
-    
-    .Validator{
+     
+
+.Validator{
         size: 60pt;
         border-bottom: black;
         font-size: 15px;
