@@ -1,43 +1,33 @@
 #img  {
-    padding-top: 80px;
-    width: 550px;
-    height: 150px;
+    height:  28%;
+    width:  28%;
+    text-align:center;
     position:relative;
-
         }
    
 .message.P{
         text-align: center;
         position:center;
     }
-.Message {
-         position: relative ;
-         width: 500px;
-         height: 450px;
-         left: calc(50% - 625px/2 + 0.5px);
-         top: calc(50% - 593px/2 + 0.5px);
-         border: 1px solid #b3b1b1;
-         border-radius: 2.5px;
-          }
 
 .Texto {
-    position: absolute;
+    position: relative;
     width: 400px;
     height: 190px;
+    padding-top: initial;
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 50px;
     line-height: 72px;
-    text-align: justify;
-    /* or 112% */
+    text-align: center;
     align-items: justify;
-    text-indent: 2px;
     color: #3A3737;
-    mix-blend-mode: normal;
+    margin-left: auto;
+    margin-right: auto;
+
     }
      
-
 .Validator{
         size: 60pt;
         border-bottom: black;
