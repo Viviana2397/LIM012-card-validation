@@ -7,34 +7,30 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
-      <header>
-        <div class="logoPrime" align="center"></div>
-          <h1 style="text-align: center";>
-            <img id="img" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png">
-          </h1>
-        </div>
-      <header>
-      <main style="text-align: center;" >
+   <header>
+      <div class="logoPrime"></div>
+        <h1 style="text-align: center">
+          <img id="img" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png">
+        </h1>
+      </div>
+   </header>
+    <main style="text-align: center">
        <section>
-                <p class="Texto" id="Suscription" >Para completar tu suscripción 
-                  ingresa un número de 
-                  tarjeta de crédito</p>
-                  <p>
+          <p class="Texto" id="Suscription" >Para completar tu suscripción 
+            ingresa un número de tarjeta de crédito
+          </p>
+             <i class="material-icons">credit_card</i>
+            <input id="cardN" class="cardNumber" type="text"  maxlength="16" title="Solo 16 dígitos"
+                placeholder="Ingrese el número de tarjeta aquí" required="" pattern="[0-9]{16}" />
+              </p>
+            <button type="button" id="btn"> Validar </button>
        </section>
-
-      <section>
-      <p>
-       <i class="material-icons prefix">credit_card</i>
-         <input id="cardN" class="cardNumber" type="text"  maxlength="16" title="Solo 16 dígitos"
-          placeholder="Ingrese el número de tarjeta aquí" required="" pattern="[0-9]{16}"/>
-      </p>
-       <p><button id="Validator"> Validar </button></p>
-                </section>
-      </main>
-     
+    </main>
+     <footer>
+       <br>
+       <div class="end">PrimeVideoSubscription by Viviana Guerra</div>
+     </footer>
      <script src="index.js" type="module"></script>
-     <footer style text-align="center">
-       <p class="end">PrimeVideoSuscription by Viviana Guerra</p>
-      </footer>
-  </body>
+     <script src="validator.js" type="module"></script>
+ </body>
 </html>
