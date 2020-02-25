@@ -7,11 +7,14 @@ btn1.addEventListener('click', () => {
    let validatorF = validator.isValid(numCard.value);
    // console.log(validatorF.innerHTML)
    if (validatorF) {
-      let ocultar = document.getElementById('maskify');
-      ocultar.innerHTML = validator.maskify(numCard.value);
+     // let ocultar = document.getElementById('maskify');
+      let ocultar = validator.maskify(numCard.value);
+      //document.innerHTML='El número '+ ocultar +' fue validado con éxito';
+      //para hacer mas dinámico el alert visité esta página y copie lo emojis https://emojipedia.org 
+      alert( '👍 El número de tarjeta \n' + ocultar +'💳 fue validado con éxito');
    }
    else {
-      alert('El número de tarjeta ingresada no es inválido');
+      alert('❌ El número de tarjeta ingresada no es inválido ❌');
    }
 });
   /*alert('si funciona');*/

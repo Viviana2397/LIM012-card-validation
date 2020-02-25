@@ -5,7 +5,9 @@ const validator = {
     let par = [];
     const impar = [];
     const sumP = [];
-    let sumT =[];
+    let sP= 0;
+    let sI= 0;
+    let sumT = 0;
 
     for (let i = 0; i < numBer.length; i++) {
       //console.log(i+": "+numBer[i]);
@@ -17,18 +19,32 @@ const validator = {
     }
 
     for (let j = 0; j < par.length; j++) {
-      console.log(par);
+     // console.log(par);
       if (par[j] > 10) {
         sumP.push((par[j] % 10) + (Math.trunc(par[j] / 10)));
       } else {
         sumP.push(par[j]);
       }
     }
-    console.log(sumP);
+    for (let l=0; l <sumP.length; l++){
+        sP=sP+parseInt(sumP[l]);
+    }
+    for (let k=0; k <impar.length; k++){
+       sI=sI+parseInt(impar[k]);
+    }
+    sumT=parseInt(sI+sP);
+    //console.log(sumP);
+   /* var numero =[];
+			var suma = 0;
+			
+			for (var i = 0; i < 4; i++){
+				numero[i] = Number(prompt("Ingrese un numero que termine en cero"));				
+				suma = suma + numero[i];
     //for (let k = 0; k < numBer.length; k++) {
-      sumT=(par + impar + sumP);
-   // }
-    console.log(sumT);
+      sumT=sumP+impar;
+
+   // }*/
+   //console.log(sumT);
     if (sumT % 10 == 0) {
       return true;
     } else {
@@ -41,7 +57,7 @@ const validator = {
     for (let m = 0; m < cardNu.length - 4; m++) {
       cardNu[m] = "#";
     }
-    return cardNu.join('-');
+    return cardNu.join('');
   }
 };
 
