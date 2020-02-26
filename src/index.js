@@ -3,7 +3,7 @@ const btn1 = document.getElementById('btn');
 let numCard = document.getElementById('cardN');
 // console.log(btn1);
 btn1.addEventListener('click', () => {
- //console.log(validator.isValid(numCard.value), 111111111111);
+ //console.log(validator.isValid(numCard.value), 111111111111) esto fue para validar que el boton funcione;
    let validatorF = validator.isValid(numCard.value);
    // console.log(validatorF.innerHTML)
    if (validatorF) {
@@ -12,9 +12,12 @@ btn1.addEventListener('click', () => {
       //document.innerHTML='El número '+ ocultar +' fue validado con éxito';
       //para hacer mas dinámico el alert visité esta página y copie lo emojis https://emojipedia.org 
       alert( '👍 El número de tarjeta \n' + ocultar +'💳 fue validado con éxito');
+      document.location.reload();
    }
    else {
       alert('❌ El número de tarjeta ingresada no es inválido ❌');
+      //esto sirve para refrescar la página al momento de hacer click en aceptar
+      document.location.reload(); 
    }
 });
   /*alert('si funciona');*/
