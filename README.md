@@ -26,19 +26,19 @@ Es una alternativa más rápida y de menos pasos , sencilla y eficaz.
 
 * Prototipo en Figma
 
-![prueba1](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime1.jpg)
+<center> ![prueba1](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime1.jpg)
 ![prueba2](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime2.jpg)
-![prueba3](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime3.jpg)
+![prueba3](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime3.jpg) </center>
 
 * Imagen final
 
-![valid](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/protF2%20(2).jpg)
+<center> ![valid](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/protF2%20(2).jpg)
 
-![invalid](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/protF1%20(1).jpg)
+![invalid](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/protF1%20(1).jpg) </center>
 
 * ✅ Test al 100%
 
-![terminado](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/test%20al%20100%25.jpg)
+<center> ![terminado](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/test%20al%20100%25.jpg) </center>
 
 ### Feedback
 
