@@ -3,15 +3,15 @@
 ### Título:  Validación de Tarjeta de crédito para suscripción a PrimeVideo
 
 ### Descripción:
-<div style="text-align: justify"> 
+ 
 El proyecto consiste en crear una demo webApp de un validador de tarjeta de crédito (por el algoritmo de Luhn), para verificar el medio de pago :moneybag: (en este caso).
-</div>
+
 ### ¿Quiénes son los principales usuarios del producto?
-<div style="text-align: justify"> 
+ 
 Los principales usuarios de esta WebApp son las personas que deseen suscribirse al servicio de streaming para obtener la prueba gratuita por 30 días como parte final del proceso. (todo rango de edad supervisada de un adulto) 
 Al validar la tarjeta se mostrará un mensaje de aprobación a la suscripción ,si la tarjeta es rechazada (inválida) se verá un mensaje de error ,en este caso solo sirve para validar una tarjeta más no para facturar el servicio.:star2: 
 (Pedí constante feedback para poder realizar un buen trabajo)
-</div>
+
 ### ¿Cúales son los objetivos de estos usuarios en relación con tu producto?
 
 Poder validar la tarjeta para acceder a la suscripción de Prime.
@@ -26,13 +26,13 @@ Es una alternativa más rápida y de menos pasos , sencilla y eficaz.
 
 * Prototipo en Figma
 
-<p align="center"> <img src="https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime1.jpg">
-<img src="https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime2.jpg">
-<img src="https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime3.jpg"> </p>
+<p align="center"> <img src="https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime1.jpg"> </p>
+<p align="center"> <img src="https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime2.jpg"> </p>
+<p align="center"> <img src="https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime3.jpg"> </p>
 
 * Imagen final
 
-<p align="center"> <img src="https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/protF2%20(2).jpg">
+<p align="center"> <img src="https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/protF2%20(2).jpg"> </p>
 
 <img src="https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/protF1%20(1).jpg"> </p>
 
@@ -41,10 +41,10 @@ Es una alternativa más rápida y de menos pasos , sencilla y eficaz.
 <p align="center"> <img src="https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/test%20al%20100%25.jpg"> </p>
 
 ### Feedback
-<div style="text-align: justify"> 
+
 Al comenzar con la maquetación de la pagina y cómo se vería (el código) ,tuve bastantes traspiés pues no lograba ordenar mi CSS y le dediqué mucho tiempo (casi todo el primer Sprint) , pedí feedback a mis compañeras y a las coach (lo que resultó de gran ayuda) ya que me brindaron tecnicas de organización sobre todo por el tiempo que le dedicaba a cada reto del día. También tuve que leer y aplicar bastante el artículo de Ruth para actualizar el onclick con addEventListener ; y la separación de módulos que fue mi talón de Aquiles .
-</div>
-### Objetivos de Aprendizaje
+
+## Objetivos de Aprendizaje
 
 ### UX
 
