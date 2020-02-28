@@ -34,7 +34,7 @@ Es una alternativa más rápida y de menos pasos , sencilla y eficaz.
 
 <p align="center"> <img src="https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/protF2%20(2).jpg"> </p>
 
-<img src="https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/protF1%20(1).jpg"> </p>
+<p align="center"> <img src="https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/protF1%20(1).jpg"> </p>
 
 * ✅ Test al 100%
 
