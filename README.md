@@ -22,23 +22,23 @@ Es una alternativa más rápida y de menos pasos , sencilla y eficaz.
 
 * Prototipo en papel
 
-![boceto](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prototipo%20en%20papel%20(1).jpg)
+<p align="center"> ![boceto](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prototipo%20en%20papel%20(1).jpg) </p>
 
 * Prototipo en Figma
 
-<center> ![prueba1](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime1.jpg)
+<p align="center"> ![prueba1](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime1.jpg)
 ![prueba2](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime2.jpg)
-![prueba3](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime3.jpg) </center>
+![prueba3](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/prime3.jpg) </p>
 
 * Imagen final
 
-<center> ![valid](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/protF2%20(2).jpg)
+<p align="center"> ![valid](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/protF2%20(2).jpg)
 
-![invalid](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/protF1%20(1).jpg) </center>
+![invalid](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/protF1%20(1).jpg) </p>
 
 * ✅ Test al 100%
 
-<center> ![terminado](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/test%20al%20100%25.jpg) </center>
+<p align="center"> ![terminado](https://github.com/VivianaGuerraCustodio/LIM012-card-validation/blob/master/src/test%20al%20100%25.jpg) </p>
 
 ### Feedback
 
