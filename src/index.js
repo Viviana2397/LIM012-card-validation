@@ -12,4 +12,4 @@ btn1.addEventListener('click', () => {
       alert('❌ El número de tarjeta ingresado no es inválido ❌');
       document.location.reload();
    }
-});
+})
