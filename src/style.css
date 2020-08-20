@@ -27,6 +27,9 @@
 }
 
 #cardN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     border-width: 20%;
 }
@@ -47,6 +50,7 @@
 }
 
 footer {
+    bottom: auto;
     background-color: rgba(46, 42, 35, 0.733);
     text-align-last: center;
     color: rgba(209, 207, 230, 0.897);
