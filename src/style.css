@@ -1,7 +1,4 @@
-body {
-    background-image: url('images/prime.jpg');
-    background-size: contain;
-}
+
 /*@media (min-width: 320px) and (max-width: 480px) {
   
 body{
@@ -13,6 +10,12 @@ footer{
     left: 0%;
     position: absolute;
 }
+background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
     
   }
 */
@@ -21,9 +24,8 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    background-color: brown;
-    padding: 7em 8em 5em 8em;
-    margin: 10em 8em 5em 8em;
+    padding: 9em 8em 5em 8em;
+    margin: 23em 8em 5em 8em;
     border-radius: 2em;
     background-color: rgba(236, 231, 223, 0.815);
 }
@@ -41,7 +43,7 @@ footer{
 
 .statement p {
     font-family: 'Baloo Tamma 2';
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .inputCreditCard{
@@ -50,9 +52,19 @@ footer{
     justify-content: center;
     text-justify: auto;
 }
+footer {
+   position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(46, 42, 35, 0.733);
+    text-align-last: center;
+    color: rgba(209, 207, 230, 0.897);
+    padding: 1em;
+}
 #cardN {
     text-align: center;
-    border-width: 20%;
+    padding:2em;
+    font-size: 1em;
 }
 
 #btn{
@@ -61,22 +73,14 @@ footer{
 }
 #btn button{
     text-align: center;
-    width: 3cm;
     border-color: rgb(230, 157, 48);
     background-color: khaki;
-    font-size: 0.8em;
-    padding:0.7em 0.7em 0.7em 0.7em;
+    font-size: 1.3em;
+    padding:1.3em;
     margin:1em;
-    border-radius: 2em;
+    border-radius: 0.6em;
 }
 
-footer {
-    bottom: auto;
-    background-color: rgba(46, 42, 35, 0.733);
-    text-align-last: center;
-    color: rgba(209, 207, 230, 0.897);
-    padding: 1em;
-}
 
 @media (min-width: 1024px) and (min-width: 1200px) {
     .general_container {
@@ -99,5 +103,14 @@ footer {
     .statement p {
         font-family: 'Baloo Tamma 2';
         font-size: 1.3em;
+    }
+    footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        background-color: rgba(46, 42, 35, 0.733);
+        text-align-last: center;
+        color: rgba(209, 207, 230, 0.897);
+        padding: 1em;
     }
 }
