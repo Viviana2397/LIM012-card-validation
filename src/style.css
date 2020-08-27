@@ -104,6 +104,19 @@ footer {
         font-family: 'Baloo Tamma 2';
         font-size: 1.3em;
     }
+    #btn button{
+        text-align: center;
+        border-color: rgb(230, 157, 48);
+        background-color: khaki;
+        padding:0.6em;
+        margin:1em;
+        border-radius: 0.6em;
+    }
+    #cardN {
+        text-align: center;
+        padding:1em;
+        font-size: 1em;
+    }
     footer {
         position: absolute;
         width: 100%;
