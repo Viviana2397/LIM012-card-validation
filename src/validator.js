@@ -1,55 +1,50 @@
 const validator = {
-
-  isValid: (cardN) => {
-    let numBer = Array.from(cardN).reverse();
-    let par = [];
-    const impar = [];
-    const sumP = [];
-    let sP = 0;
-    let sI = 0;
-    let sumT = 0;
-
-    for (let i = 0; i < numBer.length; i++) {
-      if (i % 2 !== 0) {
-        par.push(numBer[i] * 2);
-      } else {
-        impar.push(parseInt(numBer[i]));
-      }
-    }
-
-    for (let j = 0; j < par.length; j++) {
-      if (par[j] >= 10) {
-        sumP.push((par[j] % 10) + (parseInt(par[j] / 10)));
-      } else {
-        sumP.push(parseInt(par[j]));
-      }
-    }
-    for (let l=0; l <sumP.length; l++){
-        sP=sP+parseInt(sumP[l]);
-    }
-    for (let k=0; k <impar.length; k++){
-       sI=sI+parseInt(impar[k]);
-    }
-    
-    sumT=parseInt(sI+sP);
-    /*console.log(numBer);
-    console.log(par);
-    console.log(impar);
-    console.log(sumP);
-    console.log(sI);
-    console.log(sumT); */
-    if (sumT % 10 == 0) {
-      return true;
-    } else {
+  isValid: (inputCardNumber) => {
+    if (inputCardNumber == "") {
       return false;
+    } else {
+      let containerNumber_creditCard = Array.from(inputCardNumber).reverse();
+      let even = [];
+      const odd = [];
+      const sumOfPairsGreaterThan10 = [];
+      let totalSumOfPairs = 0;
+      let totalSumOfOddNumbers = 0;
+      let total_amount = 0;
+
+      for (let i = 0; i < containerNumber_creditCard.length; i++) {
+        if (i % 2 !== 0) {
+          even.push(containerNumber_creditCard[i] * 2);
+        } else {
+          odd.push(parseInt(containerNumber_creditCard[i]));
+        }
+      }
+
+      for (let j = 0; j < even.length; j++) {
+        if (even[j] >= 10) {
+          sumOfPairsGreaterThan10.push((even[j] % 10) + (parseInt(even[j] / 10)));
+        } else {
+          sumOfPairsGreaterThan10.push(parseInt(even[j]));
+        }
+      }
+      for (let l = 0; l < sumOfPairsGreaterThan10.length; l++) {
+        totalSumOfPairs = totalSumOfPairs + parseInt(sumOfPairsGreaterThan10[l]);
+      }
+      for (let k = 0; k < odd.length; k++) {
+        totalSumOfOddNumbers = totalSumOfOddNumbers + parseInt(odd[k]);
+      }
+
+      total_amount = parseInt(totalSumOfOddNumbers + totalSumOfPairs);
+      if (total_amount % 10 == 0) {
+        return true;
+      }
     }
   },
-  maskify: (cardN) => {
-    let cardNu = cardN.split('');
-    for (let m = 0; m < cardNu.length - 4; m++) {
-      cardNu[m] = "#";
+  maskify: (inputCardNumber) => {
+    let numberCreditCard = inputCardNumber.split('');
+    for (let m = 0; m < numberCreditCard.length - 4; m++) {
+      numberCreditCard[m] = "#";
     }
-    return cardNu.join('');
+    return numberCreditCard.join('');
   }
 };
 
