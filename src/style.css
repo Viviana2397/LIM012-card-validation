@@ -4,11 +4,15 @@
     align-items: center;
     justify-items: center;
     padding: 9em 8em 5em 8em;
-    margin: 23em 8em 5em 8em;
+    margin: 20em 8em 3em 8em;
     border-radius: 2em;
     background-color: rgba(236, 231, 223, 0.815);
 }
-
+p em {
+    text-align: center;
+    justify-items: center;
+    font-size: 0.5em;
+}
 .logo {
     align-content: center;
     width: 30em;
@@ -32,8 +36,8 @@
     text-justify: auto;
 }
 footer {
-   position: fixed;
-    width: 100%;
+    display: flex;
+    justify-content: center;
     bottom: 0;
     background-color: rgba(46, 42, 35, 0.733);
     text-align-last: center;
@@ -56,7 +60,7 @@ footer {
     background-color: khaki;
     font-size: 1.3em;
     padding:1.3em;
-    margin:1em;
+    margin:1em 1em 0em 1em;
     border-radius: 0.6em;
 }
 
@@ -88,7 +92,7 @@ footer {
         border-color: rgb(230, 157, 48);
         background-color: khaki;
         padding:0.6em;
-        margin:1em;
+        margin:1em 1em 0em 1em;
         border-radius: 0.6em;
     }
     #cardN {
@@ -97,8 +101,8 @@ footer {
         font-size: 1em;
     }
     footer {
-        position: absolute;
-        width: 100%;
+        display: flex;
+        justify-content: center;
         bottom: 0;
         background-color: rgba(46, 42, 35, 0.733);
         text-align-last: center;
