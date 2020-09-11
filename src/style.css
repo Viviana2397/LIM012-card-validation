@@ -8,12 +8,14 @@
     border-radius: 2em;
     background-color: rgba(236, 231, 223, 0.815);
 }
+
 p em {
     text-align: center;
     justify-items: center;
     font-size: 0.5em;
-    background-color:rgba(224, 129, 129, 0.78);
+    background-color: rgba(224, 129, 129, 0.78);
 }
+
 .logo {
     align-content: center;
     width: 30em;
@@ -30,77 +32,81 @@ p em {
     font-size: 2.5em;
 }
 
-.inputCreditCard{
+.inputCreditCard {
     display: flex;
     align-items: center;
     justify-content: center;
     text-justify: auto;
 }
+
 footer {
-    display: flex;
-    justify-content: center;
-    bottom: 0;
     background-color: rgba(46, 42, 35, 0.733);
     text-align-last: center;
     color: rgba(209, 207, 230, 0.897);
     padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
+
 #cardN {
     text-align: center;
-    padding:2em;
+    padding: 1em;
     font-size: 1em;
 }
 
-#btn{
-  display: flex;
-  justify-content: center;
+#btn {
+    display: flex;
+    justify-content: center;
 }
-#btn button{
+
+#btn button {
     text-align: center;
     border-color: rgb(230, 157, 48);
     background-color: khaki;
-    font-size: 1.3em;
-    padding:1.3em;
-    margin:1em 1em 0em 1em;
+    font-size: 1.1em;
+    padding: 1.3em;
+    margin: 1em 1em 0em 1em;
     border-radius: 0.6em;
 }
-
 
 @media (min-width: 1024px) and (min-width: 1200px) {
     .general_container {
         justify-items: center;
         align-items: center;
-        padding: 2em 12em 1em 12em;
-        margin: 1.5em 30em 1em 30em;
+        padding: 2em 8em 1em 8em;
+        margin: 1.5em 33em 1em 33em;
         border-radius: 2em;
         background-color: rgba(236, 231, 223, 0.815);
     }
     .logo {
         align-content: center;
-        width: 13em;
-        height: 4em;
+        width: 10.5em;
+        height: 3em;
     }
     .statement {
         text-align: center;
-        padding: 0em 0em 0em 0em;
-    }
-    .statement p {
         font-family: 'Baloo Tamma 2';
-        font-size: 1em;
-        padding:1em 2em 1em 2em;
+        font-size: 0.5em;
+        padding: 0.2em;
     }
-    #btn button{
+    .aviso {
+        font-size: 0.5em;
+        background-color: rgba(224, 129, 129, 0.78);
+    }
+    #btn button {
         text-align: center;
         border-color: rgb(230, 157, 48);
         background-color: khaki;
-        padding:0.6em;
-        margin:1em 1em 0em 1em;
+        padding: 0.3em;
+        margin: 0.6em;
+        font-size: 0.8em;
         border-radius: 0.6em;
     }
     #cardN {
         text-align: center;
-        padding:1em;
-        font-size: 1em;
+        padding: 0.4em;
+        font-size: 0.7em;
     }
     footer {
         display: flex;
@@ -109,6 +115,6 @@ footer {
         background-color: rgba(46, 42, 35, 0.733);
         text-align-last: center;
         color: rgba(209, 207, 230, 0.897);
-        padding: 1em;
+        padding: 0.6em;
     }
 }
